@@ -1,0 +1,18 @@
+table{
+    max-width: 100%;
+    border-collapse: collapse; /*вместе */
+}
+
+
+th, td {
+    border: 1px solid black;
+    padding: 7px;
+    text-align: center;
+    }
+
+thead{
+    background-color: #7be784;
+}
+tfoot{
+    background-color: #10cccf ;
+}
