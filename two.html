@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме</title>
-    <link rel="stylesheet" href="two.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -50,7 +50,7 @@
             <h2>Контактная информация</h2>
             <div class="form-group">
                 <label>Телефон <span style="color:red">*</span></label>
-                <input type="tel" required placeholder="Введите телефон: +375000000000" pattern="\+[0-9]{10,15}"
+                <input type="phone" required placeholder="Введите телефон: +375000000000" pattern="\+[0-9]{10,15}"
                     maxlength="16">
             </div>
             <div class="form-group">
@@ -141,11 +141,18 @@
 
 
             <div class="form-actions">
-                <input type="submit" value="Отправить" class="button">
-                <input type="reset" value="Очистить" class="button">
+                <button type="submit" onclick="pres()">Отправить</button>
+                <button type="reset">Очистить</button>
             </div>
         </form>
     </div>
+
+<script >
+function pres(){
+    alert("Работает");
+}
+</script>
+
 
 
 </body>
